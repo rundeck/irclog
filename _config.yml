@@ -1,2 +1,2 @@
-baseurl: /irclog
+baseurl: /irclog/
 permalink: ":year/:month/:day/:title.html"
