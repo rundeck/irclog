@@ -1,4 +1,4 @@
 irclog
 ======
 
-Github pages for rundeck.github.com/irclog
+Github pages for http://rundeck.github.com/irclog
