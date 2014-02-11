@@ -8,36 +8,26 @@ title: IRC Log
 <section id="help" class="page">
   
   <article class="container_12">
-	
+  
     <div class="grid_12">
-      <h2>IRC Logs</h2>
-      <ul class="irclog">
-        {% for post in site.posts %}
-        <li >
-          <a href="{{ post.url }}">
-            <h2>{{post.date | date_to_string }} #{{ post.channel }}</h2>
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
 
-    </div>
-    
-    <div class="clear"></div>
-
-  </article>
-
-
+<p>
+Embedded <a href="http://scrollback.io/rundeck">Scrollback.io</a> logs
+</p>
+<p>
+  (archive of older logs available <a href="logs.html">here</a>.)
+</p>
+</div>
+</article>
 </section>
-
-
-Embedded Scrollback.io logs:
 
 <script>
  window.scrollback = {
   streams:["rundeck"],
   theme: 'light',
-  ticker: true
+  ticker: true,
+  maxHeight: 9999,
+  maxWidth: 9999
  };
  
  /***** don't edit below *****/
